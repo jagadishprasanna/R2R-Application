@@ -155,7 +155,7 @@ export const Navbar = forwardRef<React.ElementRef<'div'>, NavbarProps>(
                 </SelectContent>
               </Select>
             )}
-            <Button
+            {/* <Button
               className="rounded-md py-1 px-3 w-30"
               variant="filled"
               onClick={() =>
@@ -163,7 +163,7 @@ export const Navbar = forwardRef<React.ElementRef<'div'>, NavbarProps>(
               }
             >
               Docs
-            </Button>
+            </Button> */}
             {isAuthenticated && (
               <Button
                 onClick={handleLogout}
