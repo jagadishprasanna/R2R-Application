@@ -170,7 +170,7 @@ const HomePage = () => {
             <div className="flex flex-col gap-4">
               <h2 className="text-xl font-semibold mb-2">SDKs</h2>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Card className="w-full sm:w-1/2 flex flex-col">
+                {/* <Card className="w-full sm:w-1/2 flex flex-col">
                   <CardHeader className="flex flex-row items-center space-x-2">
                     <Image
                       src="/images/python-logo.svg"
@@ -220,8 +220,8 @@ const HomePage = () => {
                       </Button>
                     </div>
                   </CardContent>
-                </Card>
-                <Card className="w-full sm:w-1/2 flex flex-col">
+                </Card> */}
+                {/* <Card className="w-full sm:w-1/2 flex flex-col">
                   <CardHeader className="flex flex-row items-center space-x-2">
                     <Image
                       src="/images/javascript-logo.svg"
@@ -229,7 +229,7 @@ const HomePage = () => {
                       width={30}
                       height={30}
                     />
-                    <CardTitle>JavaScript SDK</CardTitle>
+                    <CardTitle>JavaScript SDK Test</CardTitle>
                   </CardHeader>
                   <CardContent className="flex flex-col justify-end flex-grow">
                     <div className="flex flex-row space-x-2">
@@ -271,7 +271,7 @@ const HomePage = () => {
                       </Button>
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
               </div>
             </div>
           </div>

@@ -8,9 +8,11 @@ import { Input } from '@/components/ui/input';
 import { useUserContext } from '@/context/UserContext';
 
 const LoginPage: React.FC = () => {
-  const [email, setEmail] = useState('admin@example.com');
-  const [password, setPassword] = useState('change_me_immediately');
-  const [instanceUrl, setInstanceUrl] = useState('http://localhost:8000');
+  const [email, setEmail] = useState('admin@reprop.com');
+  const [password, setPassword] = useState('reProp123');
+  const [instanceUrl, setInstanceUrl] = useState(
+    ' https://sciphi-f5f0e37b-38ec-44c5-80cc-fdf5f490a45c-qwpin2swwa-ue.a.run.app'
+  );
   const [showPassword, setShowPassword] = useState(false);
   const { login } = useUserContext();
   const router = useRouter();
